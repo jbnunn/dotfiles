@@ -1,0 +1,90 @@
+filekinds:
+  normal: "ca"
+  directory: "8a"
+  symlink: "f4"
+  pipe: "f9"
+  block_device: "f9"
+  char_device: "f9"
+  socket: "f9"
+  special: "f9"
+
+perms:
+  user_read: "a6"
+  user_write: "e5"
+  user_execute_file: "ea"
+  user_execute_other: "ea"
+  group_read: "a6"
+  group_write: "e5"
+  group_execute: "ea"
+  other_read: "a6"
+  other_write: "e5"
+  other_execute: "ea"
+  special_user_file: "f2"
+  special_other: "f2"
+
+size:
+  major: "e5"
+  minor: "f4"
+  number_byte: "ca"
+  number_kilo: "8a"
+  number_mega: "ea"
+  number_giga: "e5"
+  number_huge: "f2"
+  unit_byte: "ca"
+  unit_kilo: "8a"
+  unit_mega: "ea"
+  unit_giga: "e5"
+  unit_huge: "f2"
+
+users:
+  user_you: "ea"
+  user_root: "f2"
+  user_other: "ca"
+  group_yours: "ea"
+  group_other: "ca"
+  group_root: "f2"
+
+links:
+  normal: "f4"
+  multi_link_file: "e5"
+
+git:
+  new: "a6"
+  modified: "ea"
+  deleted: "f2"
+  renamed: "f4"
+  typechange: "e5"
+  ignored: "99"
+  conflicted: "f2"
+
+git_repo:
+  branch_main: "f4"
+  branch_other: "ea"
+  git_clean: "a6"
+  git_dirty: "ea"
+
+security_context:
+  colon: "ca"
+  user: "ea"
+  role: "f4"
+  typ: "e5"
+  range: "a6"
+
+file_type:
+  image: "f4"
+  video: "e5"
+  music: "ea"
+  lossless: "ea"
+  crypto: "f2"
+  document: "8a"
+  compressed: "f9"
+  temp: "99"
+  compiled: "e5"
+
+punctuation: "99"
+date: "8a"
+inode: "99"
+blocks: "99"
+header: "ca"
+octal: "f9"
+flags: "99"
