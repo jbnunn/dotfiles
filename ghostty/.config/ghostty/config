@@ -7,6 +7,7 @@ font-size = 12
 
 mouse-hide-while-typing = true
 window-decoration = true
+fullscreen = true
 
 macos-option-as-alt = true
 
@@ -15,3 +16,4 @@ cursor-style-blink = true
 background-opacity = 0.99
 # background-blur-radius = 20 
 window-padding-x = 20
+window-padding-y = 20
