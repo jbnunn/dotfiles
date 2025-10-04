@@ -37,3 +37,5 @@ end, {range = true})
 
 -- Create abbreviation so :d becomes :Delete
 vim.cmd('cnoreabbrev <expr> d (getcmdtype() == ":" && getcmdline() =~ "^d$") ? "Delete" : "d"')
+
+
