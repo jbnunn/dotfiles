@@ -1,0 +1,17 @@
+theme = Catppuccin Macchiato
+shell-integration-features = no-cursor,no-sudo,title 
+# macos-titlebar-style = hidden
+
+font-family = JetBrainsMonoNL NFM Regular
+font-size = 12
+
+mouse-hide-while-typing = true
+window-decoration = true
+
+macos-option-as-alt = true
+
+cursor-style-blink = true
+
+background-opacity = 0.99
+# background-blur-radius = 20 
+window-padding-x = 20
