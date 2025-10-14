@@ -20,9 +20,7 @@ vim.api.nvim_create_autocmd("VimEnter", {
     vim.keymap.set('i', '<C-x><C-]>', '<Nop>', {noremap = true, silent = true})
     vim.keymap.set('i', '<Tab>', '<Tab>', {noremap = true, silent = true})
     
-    -- Normal and visual mode delete/change commands
-    vim.keymap.set({'n', 'x'}, 'd', '"_d', {noremap = true, silent = true})
-    vim.keymap.set({'n', 'x'}, 'D', '"_D', {noremap = true, silent = true})
+    -- Normal and visual mode delete/change commands (d and D removed to restore clipboard functionality)
     vim.keymap.set({'n', 'x'}, 'x', '"_x', {noremap = true, silent = true})
     vim.keymap.set({'n', 'x'}, 'X', '"_X', {noremap = true, silent = true})
     vim.keymap.set({'n', 'x'}, 'c', '"_c', {noremap = true, silent = true})
