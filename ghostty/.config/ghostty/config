@@ -7,7 +7,7 @@ font-size = 14
 
 mouse-hide-while-typing = true
 window-decoration = true
-fullscreen = true
+fullscreen = false
 
 
 macos-titlebar-style = hidden
