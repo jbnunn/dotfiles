@@ -15,3 +15,5 @@ vim.opt.showmode = true  -- show mode (since completion menu won't show)
 vim.opt.paste = false  -- ensure paste mode doesn't interfere
 
 vim.opt.relativenumber = true
+
+vim.opt.conceallevel = 0
