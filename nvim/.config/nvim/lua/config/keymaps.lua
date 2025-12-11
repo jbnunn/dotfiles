@@ -6,3 +6,5 @@
 vim.keymap.set("n", "<leader>mp", ":MarkdownPreview<CR>", { desc = "Markdown Preview" })
 vim.keymap.set("n", "<leader>ms", ":MarkdownPreviewStop<CR>", { desc = "Markdown Preview Stop" })
 vim.keymap.set("n", "<leader>mt", ":MarkdownPreviewToggle<CR>", { desc = "Markdown Preview Toggle" })
+vim.keymap.set("n", "<leader>t", function() require("snacks").terminal(nil, { win = { position = "bottom" }}) end, { desc = "Terminal bottom" })
+
