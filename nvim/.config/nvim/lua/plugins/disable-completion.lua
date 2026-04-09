@@ -14,13 +14,13 @@ return {
 
   -- Disable LSP plugins that might trigger completion
   { "neovim/nvim-lspconfig", enabled = false },
-  { "williamboman/mason.nvim", enabled = false },
-  { "williamboman/mason-lspconfig.nvim", enabled = false },
+  { "mason.nvim", enabled = false },
+  { "mason-lspconfig.nvim", enabled = false },
 
   -- Disable autopairs and other completion-like features
   { "windwp/nvim-autopairs", enabled = false },
-  { "echasnovski/mini.pairs", enabled = false },
-  { "echasnovski/mini.completion", enabled = false },
+  { "mini.pairs", enabled = false },
+  { "mini.completion", enabled = false },
   
   -- Disable other potential completion sources
   { "github/copilot.vim", enabled = false },
