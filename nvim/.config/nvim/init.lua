@@ -30,7 +30,7 @@ vim.api.nvim_create_autocmd("VimEnter", {
 
 -- Override the :delete command to use black hole register
 vim.api.nvim_create_user_command('Delete', function(opts)
-  vim.cmd(opts.range .. 'delete _')
+  vim.cmd(('%d,%ddelete _'):format(opts.line1, opts.line2))
 end, {range = true})
 
 -- Create abbreviation so :d becomes :Delete
